@@ -64,10 +64,12 @@ div {
     margin-bottom: 20px;
 }
 
-.Página_Principal .Button_2 {
+a.Button_2:link,
+a.Button_2:visited {
     background-color: #050505;
     color: #ffffff;
     text-align: center;
+    text-decoration: none;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px;
     font-weight: bold;
@@ -83,10 +85,32 @@ div {
     grid-row-end: 2;
 }
 
-.Página_Principal .Button {
+a.Button_2:hover {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 1;
+    border: 1px solid #050505;
+    border-radius: 3px;
+    text-shadow: -3px 0px 10px #333;
+    cursor: pointer;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+a.Button:link,
+a.Button:visited {
     background-color: #050505;
     color: #ffffff;
     text-align: center;
+    text-decoration: none;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px;
     font-weight: bold;
@@ -102,10 +126,32 @@ div {
     grid-row-end: 2;
 }
 
-.Página_Principal .Button_1 {
+a.Button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 1;
+    border: 1px solid #050505;
+    border-radius: 3px;
+    text-shadow: -3px 0px 10px #333;
+    cursor: pointer;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+a.Button_1:link,
+a.Button_1:visited {
     background-color: #050505;
     color: #ffffff;
     text-align: center;
+    text-decoration: none;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px;
     font-weight: bold;
@@ -117,6 +163,26 @@ div {
     cursor: pointer;
     grid-column-start: 5;
     grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+a.Button_1:hover {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 1;
+    border: 1px solid #050505;
+    border-radius: 3px;
+    text-shadow: -3px 0px 10px #333;
+    cursor: pointer;
+    grid-column-start: 1;
+    grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
 }
