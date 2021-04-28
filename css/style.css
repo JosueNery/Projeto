@@ -150,6 +150,7 @@ a.Button:visited {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
+    margin: 0 5px;
 }
 
 a.Button:hover {
@@ -170,6 +171,50 @@ a.Button:hover {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
+    margin: 0 5px;
+}
+
+a.Button_3:link,
+a.Button_3:visited {
+    background-color: #050505;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 1;
+    border: 1px solid #050505;
+    border-radius: 3px;
+    text-shadow: -3px 0px 10px #333;
+    cursor: pointer;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: 0 20px;
+}
+
+a.Button_3:hover {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 1;
+    border: 1px solid #050505;
+    border-radius: 3px;
+    text-shadow: -3px 0px 10px #333;
+    cursor: pointer;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: 0 20px;
 }
 
 
@@ -194,6 +239,7 @@ a.Button_1:visited {
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 2;
+    margin: 0 5px;
 }
 
 a.Button_1:hover {
@@ -214,6 +260,7 @@ a.Button_1:hover {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
+    margin: 0 5px;
 }
 
 
