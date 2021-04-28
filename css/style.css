@@ -84,6 +84,9 @@ div {
     margin-bottom: 20px;
 }
 
+
+/*Estilização dos links de navegação superior. Botao: Como Funciona? */
+
 a.Button_2:link,
 a.Button_2:visited {
     background-color: #050505;
@@ -124,6 +127,9 @@ a.Button_2:hover {
     grid-row-start: 1;
     grid-row-end: 2;
 }
+
+
+/*Estilização dos links de navegação superior. Botao: Entrar */
 
 a.Button:link,
 a.Button:visited {
@@ -166,6 +172,9 @@ a.Button:hover {
     grid-row-end: 2;
 }
 
+
+/*Estilização dos links de navegação superior. Botao: Cadastrar */
+
 a.Button_1:link,
 a.Button_1:visited {
     background-color: #050505;
@@ -207,6 +216,21 @@ a.Button_1:hover {
     grid-row-end: 2;
 }
 
+
+/*Estilização dos Icons de redas social*/
+
+.Página_Principal .Icon {
+    color: #333333;
+    margin-right: 4%;
+    margin-left: 94%;
+    min-height: 40px;
+    margin-top: 34px;
+    position: static;
+}
+
+
+/*Continuação das estilizações da página principal*/
+
 .Página_Principal .Label {
     color: #333333;
     text-align: left;
@@ -219,15 +243,6 @@ a.Button_1:hover {
     margin-left: 92%;
     min-height: 32px;
     margin-top: 205px;
-}
-
-.Página_Principal .Icon {
-    color: #333333;
-    margin-right: 4%;
-    margin-left: 94%;
-    min-height: 40px;
-    margin-top: 34px;
-    position: static;
 }
 
 .Página_Principal .Box_1 {
