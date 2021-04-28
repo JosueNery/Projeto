@@ -8,6 +8,26 @@ div {
     margin: 0px;
 }
 
+
+/*Estilização do rodapé */
+
+#footer {
+    bottom: 0;
+    left: 10;
+    height: 0px;
+    position: absolute;
+    width: 99%;
+    background-color: transparent;
+}
+
+#footerbody {
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+
+/*Estilização da página principa */
+
 .Página_Principal {
     background-color: #ffffff;
     display: flex;

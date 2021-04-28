@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang='pt'>
+
+<head>
+    <br><br><br><br><br>
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/cadastro.css" />
+</head>
+
+<body>
+    <header class="logo">
+        <img src="https://media.discordapp.net/attachments/692866224366944347/826621110300573696/7fa1e2b3f0ff63eb.png?width=759&height=427" alt="">
+    </header>
+    <main>
+        <div class="cadastro">
+            <form method="post" action="">
+                <h1 class="Tit_Cadastro">Cadastro</h1>
+                <hr>
+                <div class="dados">
+                    <p>
+                        <label for="nome_cad">Seu nome</label>
+                        <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Lucas Odair" />
+                    </p>
+
+                    <p>
+                        <label for="cpf_cad">CPF/CNPJ</label>
+                        <input id="cpf_cad" name="cpf_cad" required="required" type="number" placeholder="123.456.789-01" />
+                    </p>
+
+                    <p>
+                        <label for="email_cad">Seu e-mail</label>
+                        <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@email.com" />
+                    </p>
+
+                    <p>
+                        <label for="telefone_cad">Seu telefone</label>
+                        <input id="telefone_cad" name="telefone_cad" required="required" type="tel" placeholder="(31)97134-8213" />
+                    </p>
+
+                    <p>
+                        <label for="data_cad">Data Nascimento</label>
+                        <input id="data_cad" name="data_cad" required="required" type="date" placeholder="19/09/2000" />
+                    </p>
+
+                    <p>
+                        <label for="senha_cad">Sua senha</label>
+                        <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="40028922" />
+                    </p>
+
+                    <button class="cliente">Cadastrar como Cliente</button>
+
+                    <button class="prestador">Cadastrar como Prestador</button>
+                </div>
+
+            </form>
+        </div>
+        <footer>
+            <hr>
+            <div class="rodape">
+                <em>©2021. Desenvolvido por Luan Godoy 
+                    <br>  Ra: 119125766
+                </em>
+            </div>
+        </footer>
+    </main>
+    <div class="Foto">
+        <label for="avatar">Selecione uma foto de perfil:</label>
+        <br>
+        <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+
+    </div>
+
+
+</body>

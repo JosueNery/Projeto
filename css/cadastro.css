@@ -1,0 +1,79 @@
+body {
+    background: url('../img/fundocadastro.jpg');
+    text-align: center;
+}
+
+header {
+    width: -webkit-fill-available;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+hr {
+    width: 25%;
+    border-width: 0;
+    border: 3px solid cornflowerblue
+}
+
+div>div {
+    display: inline-block;
+}
+
+.Foto {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    text-align: left;
+    position: absolute;
+    left: 346px;
+    top: 294px;
+}
+
+img {
+    height: 50px;
+    width: 120px;
+    margin-top: 0px;
+}
+
+.logo {
+    text-align: left;
+}
+
+.cliente {
+    position: relative;
+    top: 0px;
+    border: 1px solid #0000007d;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 6px 10px;
+    text-decoration: none;
+    background: #00ff15db;
+    color: white;
+    box-shadow: 2px 2px 2px #0000007a;
+}
+
+.prestador {
+    position: relative;
+    top: 0px;
+    border: 1px solid #0000007d;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 6px 10px;
+    text-decoration: none;
+    background: #ff7b00cc;
+    color: white;
+    box-shadow: 2px 2px 2px #0000007a;
+}
+
+.Tit_Cadastro {
+    text-shadow: 2px 2px 3px white;
+}
