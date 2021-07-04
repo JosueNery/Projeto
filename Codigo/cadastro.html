@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang='pt'>
+
+<head>
+    <br><br><br><br><br>
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/cadastro.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css" type="text/css">
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script>
+</head>
+
+
+<script type="text/javascript" src="js/Conexao.js"></script>
+
+<body>
+
+    <header class="logo">
+        <img src="https://media.discordapp.net/attachments/692866224366944347/826621110300573696/7fa1e2b3f0ff63eb.png?width=759&height=427" alt="">
+    </header>
+
+    <main>
+        <div class="cadastro">
+            <form method="post" action="">
+                <h1 class="Tit_Cadastro">Cadastro</h1>
+                <hr>
+                <div class="dados">
+                    <p>
+                        <label for="nome">Seu nome</label>
+                        <input id="nome" name="nome" required="required" type="text" placeholder="Lucas Odair" />
+                    </p>
+
+                    <p>
+                        <label for="cpf">CPF/CNPJ</label>
+                        <input id="cpf" name="cpf" required="required" type="number" placeholder="123.456.789-01" />
+                    </p>
+
+                    <p>
+                        <label for="email">Seu e-mail</label>
+                        <input id=" email " name="email " required="required " type="email " placeholder="contato@email.com " />
+                    </p>
+
+                    <p>
+                        <label for="telefone ">Seu telefone</label>
+                        <input id="telefone " name="telefone " required="required " type="tel " placeholder="(31)97134-8213 " />
+                    </p>
+
+                    <p>
+                        <label for="senha ">Sua senha</label>
+                        <input id="senha " name="senha " required="required " type="password " placeholder="40028922 " />
+                    </p>
+
+                    <p>
+                        <label for="cep" a>CEP</label>
+                        <input id="cep" required="required" type="text" placeholder="xxxxx-xxx" />
+                    </p>
+
+                    <p>
+                        <label for="logradouro">Logradouro</label>
+                        <input type="text" id="logradouro" class="form-control">
+                    </p>
+
+                    <p>
+                        <label for="bairro">Bairro</label>
+                        <input type="text" id="bairro" class="form-control">
+                    </p>
+
+                    <p>
+                        <label for="localidade">Localidade</label>
+                        <input type="text" id="localidade" class="form-control">
+                    </p>
+
+                     <button class="cliente"><a href="loginCliente.html">Cadastrar como Cliente</a></button>
+
+                     <button class="prestador"><a href="loginPrest.html">Cadastrar como Prestador</a></button>
+                
+                </div>
+
+            </form>
+        </div>
+
+        <footer>
+            <hr>
+            <div class="rodape ">
+                <em>©2021. Desenvolvido por Luan Godoy 
+                    <br>  Ra: 119125766
+                </em>
+            </div>
+        </footer>
+    </main>
+
+    <div id="map" class="map">
+        <script type="text/javascript" src="js/APIMapa.js"></script>
+    </div>
+</div>
+
+    <div class="Foto">
+        <label for="avatar">Selecione uma foto de perfil:</label>
+        <br>
+        <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+    </div>
+
+    <script src="./js/APICep.js"></script>
+
+</body>

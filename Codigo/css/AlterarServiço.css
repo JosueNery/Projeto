@@ -1,0 +1,107 @@
+header {
+    width: -webkit-fill-available;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 55px;
+}
+.logo {
+    text-align: left;
+    width: 90px;
+    height: 60px;
+}
+.iconeperfil{
+    text-align: right;
+    position: relative;
+    left: 1775px ;
+    top: -50px;
+    height: 30px;
+    width: 30px;
+}
+.perfil{
+    text-align: right;
+    position: relative;
+    left: 1775px;
+    top: -60px;
+    color: white;
+}
+a.perfil:link,
+a.perfil:visited {
+    background-color: #050505;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 1;
+    border: 1px solid #050505;
+    border-radius: 2px;
+    text-shadow: -3px 0px 10px #333;
+    cursor: pointer;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: 0 10px;
+}
+a.perfil:hover {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 1;
+    border: 1px solid #050505;
+    border-radius: 2px;
+    text-shadow: -3px 0px 10px #333;
+    cursor: pointer;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: 0 5px;
+}
+body{
+    background: url('../img/alterarServiço.jpg');
+}
+.prestador{
+    text-align: center;
+    position: relative;
+    left: 0px;
+    top: 50px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.459);
+}
+.button{
+    position: relative;
+    top: 400px;
+    left: 555px;
+    color: white;
+    background-color: orange;
+    border-color: rgb(255, 166, 0);
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+    text-shadow: 1px 1px rgba(168, 168, 168, 0.425);
+}
+.select{
+    position: relative;
+    top: 100px;
+    left: 787px;
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 166, 0, 0.178);
+    border-color: transparent;
+    box-shadow: 2px 1px rgba(0, 0, 0, 0.233);
+
+}

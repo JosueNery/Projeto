@@ -1,0 +1,87 @@
+    body {
+        width: 95%;
+        margin: auto;
+        font-family: 'Lato';
+    }
+    
+    main {
+        background: white;
+        margin-top: 160px;
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: 2px 2px 5px #0000007a;
+        max-width: 300px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .procura_serv {
+        color: white;
+        background: #007aff;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        text-align: center;
+        margin-bottom: 200px;
+        line-height: 45px;
+    }
+    
+    .busca_serv {
+        position: relative;
+        bottom: 140px;
+    }
+    
+    .loading {
+        position: relative;
+        top: -100px;
+    }
+    
+    .rodape {
+        text-align: left;
+        font-size: 12px;
+        line-height: 5px;
+        position: relative;
+        top: -8px;
+        left: 5px;
+    }
+    
+    .altera_serv {
+        position: absolute;
+        top: 20px;
+        left: 50px;
+        border: 1px solid #007aff;
+        border-radius: 15px;
+        display: inline-block;
+        cursor: pointer;
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 13px;
+        padding: 6px 10px;
+        color: #007aff;
+        box-shadow: 2px 2px 2px #0000007a;
+    }
+    
+    .para_busca {
+        position: relative;
+        top: -30px;
+        border: 1px solid #0000007d;
+        border-radius: 5px;
+        display: inline-block;
+        cursor: pointer;
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 13px;
+        padding: 6px 10px;
+        text-decoration: none;
+        background: #ff0000c9;
+        color: white;
+        box-shadow: 2px 2px 2px #0000007a;
+    }
+    
+    .map {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }

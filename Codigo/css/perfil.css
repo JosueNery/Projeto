@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+}
+
+header {
+    width: -webkit-fill-available;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+hr {
+    width: 25%;
+    border-width: 0;
+    border: 3px solid cornflowerblue
+}
+
+div>div {
+    display: inline-block;
+}
+
+img {
+    height: 50px;
+    width: 120px;
+    margin-top: 0px;
+}
+
+.logo {
+    text-align: left;
+}
+
+.Tit_Perfil {
+    text-shadow: 2px 2px 3px white;
+}
